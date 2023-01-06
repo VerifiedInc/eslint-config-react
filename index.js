@@ -7,6 +7,15 @@ module.exports = {
     'react/prop-types': 'off',
     // don't enforce specific handler names
     'react/jsx-handler-names': 'off',
+    // don't require file extensions for jsx/tsx imports
+    'import/extensions': [
+      'error',
+      'ignorePackages',
+      {
+        jsx: 'never',
+        tsx: 'never',
+      },
+    ],
   },
   env: {
     browser: true,
