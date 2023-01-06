@@ -22,7 +22,7 @@
     "eslint-plugin-react": "^7.31.11"
   },
   "dependencies": {
-    "@unumid/eslint-config": "git+ssh://git@github.com:UnumID/eslint-config.git#dd248ccaf5f9457797874844e4185ce2b5075ca9",
+    "@unumid/eslint-config": "git+ssh://git@github.com:UnumID/eslint-config.git#v1.0.0",
     "eslint-config-standard-jsx": "^11.0.0",
     "eslint-config-standard-react": "^13.0.0"
   }
