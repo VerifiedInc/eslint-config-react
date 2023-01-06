@@ -17,7 +17,7 @@ Or by adding to `package.json` directly
   ...
   "devDependencies": {
     ...
-    "@unumid/eslint-config-react": "git+ssh://git@github.com:UnumID/eslint-config-react.git#{version}
+    "@unumid/eslint-config-react": "git+ssh://git@github.com:UnumID/eslint-config-react.git#{version}"
   }
 }
 ```
