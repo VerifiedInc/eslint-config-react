@@ -7,12 +7,16 @@ module.exports = {
     'react/prop-types': 'off',
     // don't enforce specific handler names
     'react/jsx-handler-names': 'off',
-    // don't require file extensions for jsx/tsx imports
+    // don't require file extensions for js/jsx/ts/tsx imports
+    // js and ts need to be included here even though they are ignored in the base eslint-config,
+    // because the rule added here overwrites it, not extends it
     'import/extensions': [
       'error',
       'ignorePackages',
       {
+        js: 'never',
         jsx: 'never',
+        ts: 'never',
         tsx: 'never',
       },
     ],
