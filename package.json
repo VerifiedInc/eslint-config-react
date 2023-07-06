@@ -25,5 +25,8 @@
     "@unumid/eslint-config": "github:UnumID/eslint-config#fix/audit",
     "eslint-config-standard-jsx": "^11.0.0",
     "eslint-config-standard-react": "^13.0.0"
+  },
+  "overrides": {
+    "semver": "7.5.3"
   }
 }
