@@ -22,7 +22,7 @@
     "eslint-plugin-react": "^7.31.11"
   },
   "dependencies": {
-    "@unumid/eslint-config": "github:UnumID/eslint-config#v1.0.1",
+    "@unumid/eslint-config": "github:UnumID/eslint-config#fix/audit",
     "eslint-config-standard-jsx": "^11.0.0",
     "eslint-config-standard-react": "^13.0.0"
   }
